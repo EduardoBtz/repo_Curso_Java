@@ -18,5 +18,9 @@ public class NamingJava {
         final int MIN_WIDTH = 1;
         final double PI = 3.141620;
 
+        // Lower Camel Case
+        String fullName = "Eduardo Missael Benitez Carrillo";
+        int sizeInCentimeter = 26;
+
     }
 }
