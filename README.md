@@ -66,22 +66,22 @@ switch(a) {
 - Tags
 
 ```java
-     /**
-     * This function converts money to specified currency. Works with MXN and USD.
-     * @param quantity Quantity of money.
-     * @param currency Type of currency (MXN/USD).
-     * @return Returns Converted Quantity.
-     */
-    public static double convertCurrency(double quantity, String currency) {
-        switch (currency) {
-            case "MXN":
-                quantity = quantity * 0.050;
-                break;
-            case "USD":
-                quantity = quantity * 20;
-        }
-        return quantity;
+/**
+ * This function converts money to specified currency. Works with MXN and USD.
+ * @param quantity Quantity of money.
+ * @param currency Type of currency (MXN/USD).
+ * @return Returns Converted Quantity.
+ */
+public static double convertCurrency(double quantity, String currency) {
+    switch (currency) {
+        case "MXN":
+            quantity = quantity * 0.050;
+            break;
+        case "USD":
+            quantity = quantity * 20;
     }
+    return quantity;
+}
 ```
 
 # Loops
